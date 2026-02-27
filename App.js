@@ -6,6 +6,7 @@ import { CustomerProvider } from './src/context/CustomerContext';
 import { AuthProvider } from './src/context/AuthContext';
 import * as Notifications from 'expo-notifications';
 
+// Dummy change to trigger a commit
 // Configure notifications
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
