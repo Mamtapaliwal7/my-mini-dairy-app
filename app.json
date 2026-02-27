@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "My Minii Dairy",
+    "slug": "my-minii-dairy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fdf2d9"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.miniipaliwal7.myminiidairy"
+    },
+    "android": {
+      "package": "com.miniipaliwal7.myminiidairy",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#fdf2d9"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+  "favicon": "./assets/favicon.png",
+  "meta": {
+    "name": "My Minii Dairy",
+    "description": "A simple milk dairy app for customers and billing.",
+    "themeColor": "#fdf2d9"
+  }
+},
+    "extra": {
+      "eas": {
+        "projectId": "ad452c65-23d4-4b14-99d8-61f106bff931"
+      }
+    }
+  }
+}
